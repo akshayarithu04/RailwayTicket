@@ -1,0 +1,49 @@
+𝐑𝐚𝐢𝐥𝐰𝐚𝐲 𝐓𝐢𝐜𝐤𝐞𝐭 𝐑𝐞𝐬𝐞𝐫𝐯𝐚𝐭𝐢𝐨𝐧 𝐒𝐲𝐬𝐭𝐞𝐦 (𝐉𝐚𝐯𝐚 𝐂𝐨𝐧𝐬𝐨𝐥𝐞 𝐀𝐩𝐩)
+
+This is a simple Java-based console application that simulates a railway ticket booking system.
+
+𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
+
+⋆Book train tickets with berth preference (L/M/U/S)
+
+⋆Cancel booked tickets using ticket ID
+
+⋆Auto-promotion:
+
+  RAC → Confirmed Berth
+
+  Waiting → RAC
+
+⋆Display:
+
+  Confirmed tickets
+
+  RAC queue
+
+  Waiting list
+
+⋆Seat preference handling and availability check
+
+𝐌𝐨𝐝𝐮𝐥𝐞𝐬
+
+⋆Main.java – Runs the app and handles user input
+
+⋆Passanger.java – Stores passenger and ticket info
+
+⋆TicketBooking.java – Manages booking, seat assignment, and display
+
+⋆TicketCancelling.java – Handles cancellations and updates queues
+
+𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬 𝐔𝐬𝐞𝐝
+
+⋆Java (OOP Concepts)
+
+⋆Collections (ArrayList, Queue, Map)
+
+📌 Notes
+
+⋆RAC seats: 2
+
+⋆Waiting list: 1
+
+⋆Can be extended with multiple coaches
